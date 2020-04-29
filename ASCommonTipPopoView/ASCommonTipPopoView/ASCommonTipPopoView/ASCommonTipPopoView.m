@@ -39,7 +39,7 @@ static ASCommonTipPopoView *_commonTipPopoViewManager = nil;
         
         _commonTipPopoViewManager.frame = [UIScreen mainScreen].bounds;
 //        _commonTipPopoViewManager.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
-        UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+        UIWindow *mainWindow = [UIApplication sharedApplication].windows[0];
         [mainWindow addSubview:_commonTipPopoViewManager];
     }
     return _commonTipPopoViewManager;
@@ -61,7 +61,7 @@ static ASCommonTipPopoView *_commonTipPopoViewManager = nil;
         
         _commonTipPopoViewManager.frame = [UIScreen mainScreen].bounds;
 //        _commonTipPopoViewManager.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
-        UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+        UIWindow *mainWindow = [UIApplication sharedApplication].windows[0];
         [mainWindow addSubview:_commonTipPopoViewManager];
     }
     return _commonTipPopoViewManager;
@@ -83,7 +83,7 @@ static ASCommonTipPopoView *_commonTipPopoViewManager = nil;
         
         _commonTipPopoViewManager.frame = [UIScreen mainScreen].bounds;
 //        _commonTipPopoViewManager.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
-        UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+        UIWindow *mainWindow = [UIApplication sharedApplication].windows[0];
         [mainWindow addSubview:_commonTipPopoViewManager];
     }
     return _commonTipPopoViewManager;
