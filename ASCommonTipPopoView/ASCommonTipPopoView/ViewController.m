@@ -62,7 +62,7 @@
 
 - (void)clickButtonAction {
     
-    [ASCommonTipPopoView showCommonTipPopoViewWithMessage:@"请输入您的昵称！"];
+    [ASCommonTipPopoView showCommonTipPopoViewWithMessage:@"请输入您的昵称！最好输入中文字符"];
 }
 
 - (void)clickTipButtonAction {
