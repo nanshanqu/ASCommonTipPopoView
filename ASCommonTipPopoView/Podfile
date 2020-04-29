@@ -1,0 +1,6 @@
+platform :ios,'9.0'
+target "ASCommonTipPopoView" do
+
+	pod 'Masonry'
+
+end
